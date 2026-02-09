@@ -1,7 +1,7 @@
 package com.async_event.batch.scheduler;
 
-import org.springframework.batch.core.job.Job;
-import org.springframework.batch.core.job.parameters.JobParametersBuilder;
+import org.springframework.batch.core.Job;
+import org.springframework.batch.core.JobParametersBuilder;
 import org.springframework.batch.core.launch.JobLauncher;
 import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Component;

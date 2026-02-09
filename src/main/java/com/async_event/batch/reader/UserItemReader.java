@@ -2,8 +2,8 @@ package com.async_event.batch.reader;
 
 import javax.sql.DataSource;
 
-import org.springframework.batch.infrastructure.item.database.JdbcCursorItemReader;
-import org.springframework.batch.infrastructure.item.database.builder.JdbcCursorItemReaderBuilder;
+import org.springframework.batch.item.database.JdbcCursorItemReader;
+import org.springframework.batch.item.database.builder.JdbcCursorItemReaderBuilder;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
